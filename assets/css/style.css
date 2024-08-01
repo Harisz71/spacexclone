@@ -62,3 +62,51 @@ body {
 #header .nav-menu ul li a:hover::after {
   transform: scaleX(1);
 }
+section{
+    position: relative;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center ;
+    text-transform: uppercase;
+}
+.sectionpage-a #innersection{
+    position: absolute;
+    bottom: 15%;
+    left: 3%;
+}
+.sectionpage-a{
+    background-image: url('../images/banner1.1.jpg');
+}
+.sectionpage-a #innersection h4
+{
+    font-size: 24px;
+    font-weight:50;
+    margin-bottom: 3px;
+}
+.sectionpage-a #innersection h2
+{
+    font-size: 45px;
+    font-weight: 1000;
+    margin-bottom: 12px;
+}
+.sectionpage-a .btn {
+    position: relative;
+    border: 2px solid #fff;
+    padding: 15px 50px; 
+    display: inline-block;
+    margin-top: 10px;
+    cursor:pointer;
+    max-width: fit-content;
+    overflow: hidden;
+    font-weight: bold;
+
+}
+.sectionpage-a .btn:hover span{
+    color: black;
+}
+
+.sectionpage-a .btn:hover{
+    background-color: #fff;
+} 
+
