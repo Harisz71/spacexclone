@@ -7,6 +7,26 @@
     <link rel="stylesheet" href="assets/css/style.css" />
   </head>
   <body>
+    <div id="overlay">
+      <div id="mobile-menu" class="mobile-nav-menu">
+        <ul>
+          <li><a href="#">MISSION</a></li>
+          <li><a href="#">Launches</a></li>
+          <li><a href="#">career</a></li>
+          <li><a href="#">Update</a></li>
+          <li><a href="#">Shop</a></li>
+          <!-- Mobile only -->
+          <li class="mobile-only"><a href="./pages/falcon9.html">Falcon 9</a></li>
+          <li class="mobile-only"><a href="./pages/falconheavy.html">Falgon Heavy</a></li>
+          <li class="mobile-only"><a href="./pages/dragon.html">Dragon</a></li>
+          <li class="mobile-only"><a href="./pages/starship.html">Starship</a></li>
+          <li class="mobile-only"><a href="./pages/human-sapceship.html">Human Spacelift</a></li>
+          <li class="mobile-only"><a href="./pages/rideshare.html">RideShare</a></li>
+          <li class="mobile-only"><a href="./pages/starshield.html">StarShield</a></li>
+          <li class="mobile-only"><a href="./pages/starlink.html">Starlink</a></li>
+        </ul>
+      </div>
+    </div>
     <div id="header">
       <div id="logosection">
         <a href="#">
@@ -17,29 +37,77 @@
         <ul>
           <li><a href="./pages/falcon9.html">Falcon 9</a></li>
           <li><a href="./pages/falconheavy.html">Falgon Heavy</a></li>
-          <li><a href="./pages/dragon.html">Dragon</a></li>
-          <li><a href="./pages/starship.html">StarShip</a></li>
-          <li><a href="./pages/human-sapceship.html">Human Spacelift</a></li>
-          <li><a href="./pages/rideshare.html">RideShare</a></li>
-          <li><a href="./pages/starshield.html">StarShield</a></li>
-          <li><a href="./pages/starlink.html">Starlink</a></li>
-          <li><a href="./pages/starlink.html">Shop</a></li>
+          <li ><a href="./pages/dragon.html">Dragon</a></li>
+          <li ><a href="./pages/starship.html">Starship</a></li>
+          <li ><a href="./pages/human-sapceship.html">Human Spacelift</a></li>
+          <li ><a href="./pages/rideshare.html">RideShare</a></li>
+          <li ><a href="./pages/starshield.html">StarShield</a></li>
+          <li ><a href="./pages/starlink.html">Starlink</a></li>
+          <li ><a href="./pages/starlink.html">Shop</a></li>
         </ul>
       </div>
     </div>
-    <section class="sectionpage-a">
-        <div id="innersection">
-            <h4>Upcoming Launch</h4>
-            <h2>STARLINK MISSION</h2>
-            <div class="btn ">
-                <div class="hover"></div>
-                <span>Watch</span>
-            </div>
-
-        </div>
+    <button onclick="convertmenuicon()" id="menu-btn" class="hamburger" type="button">
+      <span id="hamburger-top"></span>
+      <span id="hamburger-middle"></span>
+      <span id="hamburger-bottom"></span>
+    </button>
+    <section id="sectionpage-a">
+      <div class="innersection">
+        <h4>Upcoming Launch</h4>
+        <h2>STARLINK MISSION</h2>
+        <a href="#" class="btn">
+          <div class="hover"></div>
+          <span>Watch</span>
+        </a>
+      </div>
+    </section>
+    <section id="sectionpage-b">
+      <div class="innersection">
+        <h4>Recent Launch</h4>
+        <h2>STARLINK MISSION</h2>
+        <a href="#" class="btn">
+          <div class="hover"></div>
+          <span>ReWatch</span>
+        </a>
+      </div>
+    </section>
+    <section id="sectionpage-c">
+      <div class="innersection">
+        <h4>Recent Launch</h4>
+        <h2>STARLINK MISSION</h2>
+        <a href="#" class="btn">
+          <div class="hover"></div>
+          <span>Watch</span>
+        </a>
+      </div>
+    </section>
+    <section id="sectionpage-d">
+      <div class="innersection">
+        <!-- <h4>Upcoming Launch</h4> -->
+        <h2>TO MAKE LIFE MULTIPLANETARY</h2>
+        <a href="#" class="btn">
+          <div class="hover"></div>
+          <span>Learn More</span>
+        </a>
+      </div>
+    </section>
+    <section id="sectionpage-e">
+      <div class="innersection">
+        <!-- <h4>ADVANCING HUMAN SPACEFLIGHT</h4> -->
+        <h2>ADVANCING HUMAN SPACEFLIGHT</h2>
+        <a href="#" class="btn">
+          <div class="hover"></div>
+          <span>Learn More</span>
+        </a>
+      </div>
     </section>
   </body>
 
-  <footer></footer>
+  <footer>
+    <p>SpaceX @ 2024</p>
+    <a href="#">Privacy Policy</a>
+    <a href="#">Suppliers</a>
+  </footer>
   <script src="assets/js/main.js"></script>
 </html>
